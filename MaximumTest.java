@@ -2,8 +2,8 @@ package com.capgemini.maximum_test;
 
 public class MaximumTest {
 
-	public static int max(int x, int y, int z) {
-		int max = x;
+	public static float max(float x, float y, float z) {
+		float max = x;
 		if (y > max)
 			max = y;
 		if (z > max)
@@ -12,8 +12,7 @@ public class MaximumTest {
 	}
 
 	public static void main(String[] args) {
-		int a = 5, b = 4, c = 3;
-
+		float a = 4.4f, b = 2.2f, c=3.3f;		
 		System.out.println("maximum is " + max(a, b, c));
 	}
 }
