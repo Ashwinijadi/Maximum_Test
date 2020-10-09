@@ -12,7 +12,7 @@ public class MaximumTest {
 	}
 
 	public static void main(String[] args) {
-		int a = 5, b = 4, c = 3;
+		int a = 3, b = 5, c = 4;
 
 		System.out.println("maximum is " + max(a, b, c));
 	}
