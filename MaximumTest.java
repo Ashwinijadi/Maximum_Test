@@ -12,7 +12,7 @@ public class MaximumTest {
 	}
 
 	public static void main(String[] args) {
-		float a = 2.2f, b = 4.4f, c=3.3f;		
+		float a = 2.2f, b = 3.3f, c=4.4f;		
 		System.out.println("maximum is " + max(a, b, c));
 	}
 }
