@@ -2,17 +2,17 @@ package com.capgemini.maximum_test;
 
 public class MaximumTest {
 
-	public static float max(float x, float y, float z) {
-		float max = x;
-		if (y > max)
+	public static String max(String x, String y, String z) {
+		String max = x;
+		if (y.compareTo(max) > 0)
 			max = y;
-		if (z > max)
+		if (z.compareTo(max) > 0)
 			max = z;
 		return max;
 	}
 
 	public static void main(String[] args) {
-		float a = 2.2f, b = 3.3f, c=4.4f;		
-		System.out.println("maximum is " + max(a, b, c));
+		String str1="Apple",str2="Peach",str3="Banana";
+		System.out.println("maximum is " + max(str1,str2,str3));
 	}
 }
