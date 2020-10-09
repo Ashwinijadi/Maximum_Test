@@ -12,7 +12,7 @@ public class MaximumTest {
 	}
 
 	public static void main(String[] args) {
-		String str1="Apple",str2="Peach",str3="Banana";
+		String str1="Apple",str2="Banana",str3="Peach";
 		System.out.println("maximum is " + max(str1,str2,str3));
 	}
 }
