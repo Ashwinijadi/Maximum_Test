@@ -16,14 +16,18 @@ public class MaximumTest<E extends Comparable<E>> {
 		return this.max;
 	}
 
-	public E Maximum(E ...args) {
+	public E Maximum(E... args) {
 		Arrays.sort(args);
 		this.max = args[args.length - 1];
 		return max;
 	}
 
+	public void printMaximum() {
+		System.out.println("maximum is:" + max);
+	}
+
 	public static void main(String[] args) {
-		System.out.println("Maximum is found");
+
 	}
 
 }
